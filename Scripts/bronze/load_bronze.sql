@@ -3,6 +3,12 @@
 This script uses TRUNCATE and BULK INSERT to insert the CSV raw data into the bronze layer of the Data Warehouse.
 Uses the "as-is" model and does not apply any data transformations.
 Logs Individual Truncate and Insert queries and logs the total time taken to load the bronze layer.
+
+Parameters:
+ - None.
+
+Stored Procedure Usage:
+EXEC bronze.load_bronze;
 ----------------------------------------------------------
 */
 

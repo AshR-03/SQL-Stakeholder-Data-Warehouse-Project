@@ -8,7 +8,7 @@ Parameters:
  - None.
 
 Stored Procedure Usage:
-EXEC bronze.load_bronze;
+   EXEC bronze.load_bronze;
 ----------------------------------------------------------
 */
 
